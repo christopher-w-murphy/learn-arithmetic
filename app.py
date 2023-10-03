@@ -33,11 +33,11 @@ def main(n_rows: int = 10, n_cols: int = 10) -> None:
     :param n_rows: Number of rows to display
     :param n_cols: Number of columns to display
     """
-    set_page_config(page_title="Learn Arthmetic!", page_icon=":1234:", layout="wide")
+    set_page_config(page_title="Learn Arithmetic!", page_icon=":1234:", layout="wide")
 
     markdown("<style> p { text-align: center; } </style>", unsafe_allow_html=True)
 
-    title("Learn Arthmetic :heavy_plus_sign: :heavy_minus_sign: :heavy_multiplication_x:")
+    title("Learn Arithmetic :heavy_plus_sign: :heavy_minus_sign: :heavy_multiplication_x:")
 
     op_col, idx_col, jdx_col = columns(3)
     with op_col:
