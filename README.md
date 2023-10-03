@@ -1,9 +1,10 @@
 # Learn Arithmetic
-I'm about to be an uncle for a first time, so I recreated a game as a simple Streamlit app that helped me learn arithmetic in my early childhood.
-Hopefully the game itself is self-explanatory.
-Below are instructions for installing and running locally.
+I'm about to be an uncle for a first time, so I recreated a game that helped me learn arithmetic in my early childhood as a simple Streamlit app.
+The app is [deployed](https://learn-arithmetic.streamlit.app) on the Streamlit cloud.
+If you'd instead prefer to run it locally, there are instructions below.
+Either way, hopefully the game itself is self-explanatory.
 
-## Install and Run
+## Install and Run Locally
 ```shell
 git clone https://github.com/christopher-w-murphy/learn-arithmetic.git
 pip install -r requirements.txt
