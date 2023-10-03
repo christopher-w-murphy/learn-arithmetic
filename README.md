@@ -9,5 +9,5 @@ Either way, hopefully the game itself is self-explanatory.
 git clone https://github.com/christopher-w-murphy/learn-arithmetic.git
 cd learn-arithmetic/
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run 🏠_Home.py
 ```
