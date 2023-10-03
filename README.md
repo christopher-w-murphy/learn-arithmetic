@@ -7,6 +7,7 @@ Either way, hopefully the game itself is self-explanatory.
 ## Install and Run Locally
 ```shell
 git clone https://github.com/christopher-w-murphy/learn-arithmetic.git
+cd learn-arithmetic/
 pip install -r requirements.txt
 streamlit run app.py
 ```
