@@ -1,6 +1,6 @@
 from time import sleep
 
-from streamlit import set_page_config, markdown, title, selectbox, number_input, header, columns, button, empty
+from streamlit import set_page_config, markdown, title, selectbox, number_input, header, columns, button, empty, write
 
 
 ops = {
@@ -28,16 +28,16 @@ def show_result(operation: str, result_time: int = 2) -> None:
     result.empty()
 
 
-def main(n_rows: int = 10, n_cols: int = 10) -> None:
+def click_around_and_find_out(n_rows: int = 10, n_cols: int = 10) -> None:
     """
     :param n_rows: Number of rows to display
     :param n_cols: Number of columns to display
     """
-    set_page_config(page_title="Learn Arithmetic!", page_icon=":1234:", layout="wide")
+    set_page_config(page_title="Click Around and Find Out", page_icon=":1234:", layout="wide")
 
     markdown("<style> p { text-align: center; } </style>", unsafe_allow_html=True)
-
-    title("Learn Arithmetic :heavy_plus_sign: :heavy_minus_sign: :heavy_multiplication_x:")
+    title("Click Around and Find Out :heavy_plus_sign: :heavy_minus_sign: :heavy_multiplication_x:")
+    write("For a better viewing experience, minimize the sidebar.")
 
     op_col, idx_col, jdx_col = columns(3)
     with op_col:
@@ -58,4 +58,4 @@ def main(n_rows: int = 10, n_cols: int = 10) -> None:
 
 
 if __name__ == '__main__':
-    main()
+    click_around_and_find_out()
